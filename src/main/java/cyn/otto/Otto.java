@@ -1,5 +1,6 @@
 package cyn.otto;
 
+import cyn.otto.item.ModItemGroup;
 import cyn.otto.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -22,5 +23,6 @@ public class Otto implements ModInitializer {
 
 		LOGGER.info("ShuoDeDaoLi");
 		ModItems.registerModItems();
+		ModItemGroup.registerModItemGroup();
 	}
 }
